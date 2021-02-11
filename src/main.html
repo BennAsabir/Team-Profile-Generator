@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>My Team</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://kit.fontawesome.com/c502137733.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+
+        /* Curve Header CSS from: https://codepen.io/linux/pen/aEQKWP */
+
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            height: 900px;
+        }
+
+        header {
+            text-align: center;
+            width: 100%;
+            height: auto;
+            background-size: cover;
+            background-attachment: fixed;
+            position: relative;
+            overflow: hidden;
+            margin-bottom: 30px;
+        }
+
+        header .overlay {
+            width: 100%;
+            height: 100%;
+            padding: 50px;
+            color: #FFF;
+            text-shadow: 1px 1px 1px #333;
+            background-image: linear-gradient(135deg, #ff0000 50%, #f58080 100%);
+
+        }
+
+        h1 {
+            font-family: "Hammersmith One", sans-serif;
+        }
+
+        h2 {
+            font-size: 2rem;
+        }
+
+        .collection-item {
+            font-size: .9rem;
+            overflow-wrap: break-word;
+        }
+
+        .card {
+            height: 500px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="overlay">
+            <h1>My Team</h1>
+        </div>
+    </header>
+    <div class="container">
+        <div class="row">
+
+            {{ team }}
+
+        </div>
+    </div>
+</body>
+
+</html>
