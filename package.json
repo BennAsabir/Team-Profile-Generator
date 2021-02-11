@@ -4,7 +4,7 @@
   "description": "A command-line application that takes in information about employees on a software engineering team and generates an HTML webpage that displays summaries for each person.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,8 @@
   "homepage": "https://github.com/BennAsabir/Team-Profile-Generator#readme",
   "dependencies": {
     "inquirer": "^7.3.3"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
   }
 }
