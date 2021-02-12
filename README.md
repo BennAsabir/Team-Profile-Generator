@@ -11,7 +11,7 @@ A command-line application that takes in information about employees on a softwa
 
 ## General Info
 When the application runs, it prompts the user for informaton about the team manager, engineer or intern team members. When all team members have been added, the application generates a team.html file in the dist folder which displays all team member summaries on one page.
-Image showcasing the application running in the Terminal.
+Image showcasing the application running in the Terminal.<br>
 <img src=./assets/images/screenshot2.png>
 
 Image of result after answering a series of prompts from the application. Generated file that was demonstrated in the video is in the dist folder.
@@ -64,6 +64,7 @@ After installation of the dependencies, the application can be invoked with the 
 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+<br>
 This repository is licensed under the MIT license.
 
 ## Questions
